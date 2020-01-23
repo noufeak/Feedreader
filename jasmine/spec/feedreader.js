@@ -60,8 +60,9 @@ $(function() {
     */
     it('The menu changes visibility whenever clicked', () => {
       $('.menu-icon-link').trigger('click');
+      expect($('body').hasClass('menu-hidden')).toBeFalsy();
       $('.menu-icon-link').trigger('click');
-      expect($('.menu-hidden')).toBeTruthy();
+      expect($('body').hasClass('menu-hidden')).toBeTruthy()
     });
   });
 
@@ -77,7 +78,7 @@ $(function() {
     * a single .entry element within the .feed container.
     */
     it('loads at least one entry', done => {
-      expect($('.feed').length).toBeGreaterThan(0);
+      expect($('.feed .entry').length).toBeGreaterThan(0);
       done();
     });
   });
