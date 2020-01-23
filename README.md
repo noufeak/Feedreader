@@ -11,8 +11,9 @@ Whether you work in an organization that uses test-driven development or in an o
 
 # Steps to run the project
 
-1. open the project by clicking on index.html file
-
+1. Run the project locally by opening index.html in a browser.
+2. Roll down to see the tests that have passed successfully.
+3. If you want to add further tests or change some, go to feedreader.js file.
 
 # Development Strategy
 
