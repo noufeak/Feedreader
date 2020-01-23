@@ -9,13 +9,13 @@ Testing is an important part of the development process and many organizations p
 
 Whether you work in an organization that uses test-driven development or in an organization that uses tests to make sure future feature development doesn't break existing features, it's an important skill to have!
 
-# Steps to run the project
+## Steps to run the project
 
 1. Run the project locally by opening index.html in a browser.
 2. Roll down to see the tests that have passed successfully.
 3. If you want to add further tests or change some, go to feedreader.js file.
 
-# Development Strategy
+## Development Strategy
 
 1. Familiarized myself with the starter code.
 2. Inside the RSS Feed suite, I wrote a test that loops through each feed in the `allFeeds` object and ensures it has a URL defined _and_ that the URL is not empty. Also, another test that loops through each feed in the `allFeeds` object and ensures it has a name defined and that the name is not empty.
